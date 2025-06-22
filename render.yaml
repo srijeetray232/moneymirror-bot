@@ -1,10 +1,9 @@
 services:
   - type: web
     name: moneymirror-bot
-    env: python
+    env: docker
     plan: free
-    buildCommand: ""
-    startCommand: "python main.py"
+    dockerfilePath: ./Dockerfile
     envVars:
       - key: TELEGRAM_TOKEN
         value: 8013528707:AAHs8-1hdROjGLifIpIaUIMgRfgM_NeoEdw
