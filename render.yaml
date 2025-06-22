@@ -7,4 +7,4 @@ services:
     startCommand: "python main.py"
     envVars:
       - key: TELEGRAM_TOKEN
-        value: YOUR_TOKEN_HERE
+        value: 8013528707:AAHs8-1hdROjGLifIpIaUIMgRfgM_NeoEdw
